@@ -10,7 +10,15 @@ You'll be working **in groups** to make a form, with:
 - Whatever form field types you want... go wild!
 - Automatic printing of results thanks to the bit of JavaScript in `main.js`... don't touch!
 
-### What Form
+### What Form Types Can I Include?
+
+You can find [a list of form input types here](https://www.w3schools.com/html/html_form_input_types.asp). All of them _should_ work expect for `radio` and `checkbox`, though they also may not have their full functionality without some JavaScript. Experiment to see what works and what you like!
+
+### The Basic Workflow For Adding A Form Input Field In This Project
+
+1. Add an input tag of the type you want to the `#form` `div`, making SURE to give the input tag an `id`.
+2. Add an `h1` tag to the `#results` `div`, making SURE to give it the exact same `class` as the input's `id`. (Note which one of those is an `id` and which is a `class`, and check your spelling!)
+3. Fill out the form and hit the submit button. The JavaScript in `main.js` will do the rest!
 
 ### Git Collaboration
 
