@@ -26,6 +26,10 @@ You're going to work on this together using `git`. Here are your basic steps.
 
 - One teammate will fork this repo. This will be the repo that everyone submits as an assignment.
 - That teammate will add the other team members as "Collaborators".
+  - First, go to "Settings" for your FORKED repo (with your username in the url!). It's a tab on top.
+  - Then, "Manage Access" on the left.
+  - Finally, hit "Invite teams or people" and enter the usernames of your collaborators.
+  - Now the collaborators just have to follow the link in their email!
 - You will all `git clone` the repository to your machines.
 - When it's someone else's turn to "drive", the current driver can push up (`git add` and `git commit -m "[some message]"` first!), and the new driver will do a `git pull` to get the changes the previous driver added.
 - Always always _always_ `pull` before you start working.
